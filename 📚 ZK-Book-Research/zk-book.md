@@ -33,6 +33,49 @@ If the set P = NP, then all problems that can be verified easily can be solved e
 If P=NP, then all encryption would break as we rely on the assymetry between solving and proving for encryption schemes.
 
 
-part 2: TODO
+part 2:
+Verifying a P or NP problem can be done through an encoding of the problem in a boolean formula.
 
-part 3: TODO
+Boolean formula = boolean circuit.
+Boolean formula are easy to verify (just plug in the true or false values of the variables), but difficult to prove(in other words NP, since the only way to solve is to try all the combinations of values).
+
+P > Q
+if P and Q are bits ( 0 or 1), the following boolean formula encodes the relationship
+P∧¬Q
+
+P = Q
+encoded by this formulate
+(P∧Q) ∨ ¬(P∨Q)
+
+combining both, we can calculate P >= Q
+(P∧¬Q)∧((P∧Q) ∨ ¬(P∨Q))
+
+The above is just for a big but we can tell if a number (a sequence of bits) if greater than or equal to another number by iterating through each bit from Most significant to Least. If one of the bits is higher, then we know that the number is > the other. If it's equal all the way through, then the number is equal.
+
+P >= Q, as 4-bit numbers could be encoded so (with number Q, representaed as bit sequence Q4-Q3-Q2-Q1)
+
+(P4 > Q4) ∨
+(P4 = Q4 ∧ P3 > Q3) ∨
+(P4 = Q4 ∧ P3 = Q3 ∧ P2 > Q2) ∨
+(P4 = Q4 ∧ P3 = Q3 ∧ P2 = Q2 ∧ P1 > Q1)
+
+With the above, we can not construct a witness to verify whether a list if sorted. We compare each adjacent pair of indexed values and verify if the second is >= to the first. If yes, we move to the next number and make another check. We AND all of those checks and we have our boolean circuit.
+
+3 color problem.
+
+A similar problem is the 3 color problem. We can also construct a boolean circuit for this.
+
+1. First we construct the boolean circuit specifying that each country can only be 1 color.
+2. We construct the boolean circuit encoding the fact that each neighbor cannot be the same color.
+
+The two examples above show how we can construct a boolean formula/boolean circuit which is exponential to solve but can be verified in polynomial time with a witness.
+
+
+part 3:
+The point of a ZK proof is to demonstrate that I have a witness without showing the witness.
+
+All P and NP problems can be expressed in boolean circuits and thus we could provide a witness to it and thus began constructing a ZK scheme.
+
+With a witness, we could verify that a computation has been performed without having to perform it ourselves.
+
+For PSPACE problems, zk proofs don't work since we can't construct a boolean circuit allowing us to verify easily, thus zk proofs don't work with such problems (like finding the best move in chess).
