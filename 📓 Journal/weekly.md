@@ -1,5 +1,12 @@
 # Weekly Journal
 
+## Week of February 16th 2026
+TLDR: 🦀 More Rust, 📚 consensus protocol and ZK study
+
+Just as last week, I am continuing my sprint through the rust book. I am really close to finishing the Rust book now and I will slowly transition to the next part of my practicial developer training which would be to study the Reth book and the Reth codebase.
+
+In addition, I've started studying some theory. I've studied a few sections of the eth2book and the first chapter of the zk book, writing summaries to cement my comprehension.
+
 ## Week of February 9th 2026
 TLDR: 🦀 Rust week marathon
 
