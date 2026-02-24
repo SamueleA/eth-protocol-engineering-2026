@@ -8,5 +8,5 @@ As such I am doing two things:
 2. Doing the Rustlings exercises and the exercises from the Rust book in parallel to reading the book. I've compiled all the execises in the following repository: <https://github.com/SamueleA/rust_journey>
 
 ## 🦀 Rust Book Progress
-**Status:** Chapter 11/21
-`[███████████░░░░░░░░░░]` **52% Complete**
+**Status:** Chapter 16/21
+`[███████████████░░░░░░]` **71% Complete**

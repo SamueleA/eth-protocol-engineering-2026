@@ -1,5 +1,15 @@
 # Daily Journal
 
+# 23/02/2026
+Today was the kickoff for the Ethereum Protocol Study group. The next two weeks will include intense study of the Ethereum protocol.
+
+I also have studies chapter 15 of the study Rust book today in addition to some rustling exercises. Finally, I opened PRs with minor fixes to the EPF wiki. As weeks progress, I will be looking to making more meaningful contributions to the wiki.
+
+# 22/02/2026
+Started the Rust book chapter 15 about smart pointers. Learn about the Deref trait which allows structs to act as pointers and the Drop which frees up associated memory when a smart pointer is dropped.
+
+Also, finished chapter 1 of the zk book. Learned about how boolean circuits creates a polynomial-time-verified proof system to which a witness can be supplied to eventually create a zk proof. Also, a discussion of P VS NP and how a problems needs to be P or NP for a boolean circuit to even be possible.
+
 ## 21/02/2026
 Today I completed chapter 14 of the Rust book, which was a quick and easy chapter. I read the Upgrading Ethereum book and read the chapter about LMD GHOST. I do feel like a lot fell into place reading that chapter. The short discussion of incentives and disincentives (slashing) provided a lot of insight. I am excited to read the next chapter about CASPER FFG.
 
