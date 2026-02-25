@@ -1,5 +1,10 @@
 # Daily Journal
 
+# 24/02/2026
+I opened a PR which clarifies some comments in the ethereum-specs related to gas limits. I noticed the discrepancy while studying EIP-7935,7825 and 1559. Let's see how that will go!
+
+In addition to that, I completed a few rustlings exercises, but the majority of the time was spend on the Lecture 3 of the Ethereum protocol studies. I haven't had the time to also run my own node as was suggested. I will keep this for later as I will have to do it eventually, and I would like to continue through the lessons for the study group.
+
 # 23/02/2026
 Today was the kickoff for the Ethereum Protocol Study group. The next two weeks will include intense study of the Ethereum protocol.
 
