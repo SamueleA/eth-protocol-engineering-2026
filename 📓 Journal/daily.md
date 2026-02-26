@@ -1,5 +1,11 @@
 # Daily Journal
 
+# 25/02/2026
+I focused on the lesson about EL and CL Specs Overview. As part of the exercises, I got the chance to create a python scripts which interacts with the specs.
+I learned that the CL specs starts from markdown and compiles to python code, while the execution specs does the opposite. I feel that at some point I want to take some time to do a deep dive into the specs, the codebases and the test cases.
+
+I also took some time to do a little bit of Rust by completed some Rustlings exercises.
+
 # 24/02/2026
 I opened a PR which clarifies some comments in the ethereum-specs related to gas limits. I noticed the discrepancy while studying EIP-7935,7825 and 1559. Let's see how that will go!
 
