@@ -1,5 +1,8 @@
 # Daily Journal
 
+# 26/02/2026
+Today was focused on learning how testing works in the Ethereum ecosystem. I got to generate tests in the Ethereum Specs repo. Working on that also gave me an idea for a small improvement to the repo. I also completed a few rustlings exercises just so I can keep on making progress on the Rust front.
+
 # 25/02/2026
 I focused on the lesson about EL and CL Specs Overview. As part of the exercises, I got the chance to create a python scripts which interacts with the specs.
 I learned that the CL specs starts from markdown and compiles to python code, while the execution specs does the opposite. I feel that at some point I want to take some time to do a deep dive into the specs, the codebases and the test cases.
