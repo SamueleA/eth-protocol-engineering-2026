@@ -1,5 +1,9 @@
 # Daily Journal
 
+# 27/02/2026
+Today I ran an ethereum composed of Reth on the EL and Lighthouse on the CL. I ran into problems trying to connect to Ephemery since Reth doesn't have default configs for Ephemery which meant I had to fix the Reth configuration. In the end, I fixed the issue, got some Eth and queries that I indeed had received that eth through a JSON-RPC call. I documented my code on discord and updated the documentation on the ephemery-scripts repository.
+Then, I went ahead and learned about Kurtosis and played with it. Finally, I did the rustlings on tests.
+
 # 26/02/2026
 Today was focused on learning how testing works in the Ethereum ecosystem. I got to generate tests in the Ethereum Specs repo. Working on that also gave me an idea for a small improvement to the repo. I also completed a few rustlings exercises just so I can keep on making progress on the Rust front.
 
