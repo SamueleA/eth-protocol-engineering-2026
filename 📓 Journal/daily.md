@@ -1,5 +1,8 @@
 # Daily Journal
 
+# 28/02/2026
+I went through the lesson on Consensus mechanism today. I do feel like there are some details that could be fleshed out in my mental model related to Casper FFG (why do we have justified VS finalized) and various slashing conditions. Eventually, I will address them as I get through th eth2book.
+
 # 27/02/2026
 Today I ran an ethereum composed of Reth on the EL and Lighthouse on the CL. I ran into problems trying to connect to Ephemery since Reth doesn't have default configs for Ephemery which meant I had to fix the Reth configuration. In the end, I fixed the issue, got some Eth and queries that I indeed had received that eth through a JSON-RPC call. I documented my code on discord and updated the documentation on the ephemery-scripts repository.
 Then, I went ahead and learned about Kurtosis and played with it. Finally, I did the rustlings on tests.
