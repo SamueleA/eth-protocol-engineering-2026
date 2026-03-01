@@ -1,5 +1,8 @@
 # Daily Journal
 
+# 29/02/2026
+I did a bit of lighter day today. I covered a few lessons from the Ethereum protocol study group and did a few rustlings.
+
 # 28/02/2026
 I went through the lesson on Consensus mechanism today. I do feel like there are some details that could be fleshed out in my mental model related to Casper FFG (why do we have justified VS finalized) and various slashing conditions. Eventually, I will address them as I get through th eth2book.
 

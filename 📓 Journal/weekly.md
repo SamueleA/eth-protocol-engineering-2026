@@ -1,5 +1,10 @@
 # Weekly Journal
 
+## Week of February 23th 2026
+TLDR: 🏇 Ethereum protocol study group week 1
+
+This week kicked off the first of two intensive weeks covering various aspects of the Ethereum protocol as part of the Ethereum protocol stutdy group. I got to touch upon various aspects of the protocol and got introduced to EELS. I noticed several aspects of the Ethereum ecosystem I would like to dig deeper into. Rust took a bit of a backseat but despite being occupied elsewhere I still did a few rustlings exercises daily.
+
 ## Week of February 16th 2026
 TLDR: 🦀 More Rust, 📚 consensus protocol and ZK study
 
