@@ -1,6 +1,6 @@
 # Daily Journal
 
-# 29/02/2026
+# 01/03/2026
 I did a bit of lighter day today. I covered a few lessons from the Ethereum protocol study group and did a few rustlings.
 
 # 28/02/2026
