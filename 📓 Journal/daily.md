@@ -1,5 +1,10 @@
 # Daily Journal
 
+# 02/03/2026
+I followed a libp2p explainer today. It was insightful, but I put the task of fully reading the libp2p docs in my todo list. I do enjoy what I am learning in the Ethereum Protocol Study Group, but I am also craving more depth and I think this will only come by my digging deeper in specs, docs and codebases.
+
+As such, I read some guide about Kurtosis in the official repo and found it didn't work. After digging deeper, it turned out that the guide was relying on outdates packages. I opened a PR to remove the guide since there was already another one covering the same subject that wasn't outdated in the same repo.
+
 # 01/03/2026
 I did a bit of lighter day today. I covered a few lessons from the Ethereum protocol study group and did a few rustlings.
 
