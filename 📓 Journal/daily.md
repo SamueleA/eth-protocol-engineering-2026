@@ -1,5 +1,12 @@
 # Daily Journal
 
+# 04/03/2026
+I listened to today's lecture about the EVM and got a high level view as to how it works. This would be something I'd like to dig deeper into.
+I've also started looking at the Reth exex example repo. I have spent the day updating the dependencies and will make a PR to the repo.
+
+# 03/03/2026
+Learn about the engine API at a high level. Started reading the Reth book. I do intend to learn more about Reth and particularly Reth exex have caught my attention as something I might want to play more with for the purpose of making projects and learning Ethereum more deeply.
+
 # 02/03/2026
 I followed a libp2p explainer today. It was insightful, but I put the task of fully reading the libp2p docs in my todo list. I do enjoy what I am learning in the Ethereum Protocol Study Group, but I am also craving more depth and I think this will only come by my digging deeper in specs, docs and codebases.
 
