@@ -57,7 +57,8 @@ P >= Q, as 4-bit numbers could be encoded so (with number Q, representaed as bit
 (P4 > Q4) ∨
 (P4 = Q4 ∧ P3 > Q3) ∨
 (P4 = Q4 ∧ P3 = Q3 ∧ P2 > Q2) ∨
-(P4 = Q4 ∧ P3 = Q3 ∧ P2 = Q2 ∧ P1 > Q1)
+(P4 = Q4 ∧ P3 = Q3 ∧ P2 = Q2 ∧ P1 > Q1) ∨
+(P4 = Q4 ∧ P3 = Q3 ∧ P2 = Q2 ∧ P1 = Q1) 
 
 With the above, we can not construct a witness to verify whether a list if sorted. We compare each adjacent pair of indexed values and verify if the second is >= to the first. If yes, we move to the next number and make another check. We AND all of those checks and we have our boolean circuit.
 
@@ -79,3 +80,99 @@ All P and NP problems can be expressed in boolean circuits and thus we could pro
 With a witness, we could verify that a computation has been performed without having to perform it ourselves.
 
 For PSPACE problems, zk proofs don't work since we can't construct a boolean circuit allowing us to verify easily, thus zk proofs don't work with such problems (like finding the best move in chess).
+
+## Chapter 2: Arithmetic Circuits for ZK
+Boolean circuits tend to be verbose, including when testing arithmetic statements. Thus we use arithmetic circuits instead.
+
+Like a boolean circuit, a circuit is satisfied by a witness if all the variables provided satisfy ALL the equations.
+
+In circom (a programming language used in ZK), variable  = signals. Also,  `===` means equality.
+
+*Interpreting arithmetic circuits*
+`x(x-1) === 0` << restricts x to be either 0 or 1. 
+
+Arithmetic circuits require less inpputs than boolean circutis
+
+Arithmetic and boolean circuits are equivalent. Any arithmetic circuit can be converted into a boolean circuit.
+
+*Example with arithmetic circuits*
+
+3 color problem.
+
+We first assign a number to each color. EG blue=1, red=2, yellow=3
+
+Then, we restrict each state to only have 1 such number.
+
+`0 = (1-x) * (2-x) * (3-x)`
+
+Then, we model the fact that both status cannot be the same number so we excludes squares, such as 1, 4, 9.
+
+`0 = (2 - xy) * (3 - xy) * (6 - xy)`
+
+*Proving a list is sorted*
+We have to be able to compate GTE(x1, x2). If we can have such as circuit, then we can simple compare each pair of numbers in the list.
+
+First we convert numbes to binary. If 3 bits.
+
+```
+# the number must be 3 bits
+v = b2² + b1² + b0
+
+# each bit is either 0 or 1
+0 = b0(b0 -1)
+0 = b1(b1 -1)
+0 = b2(b2 -1)
+```
+
+2^n = require n + 1 bit to represent
+2^(n-1) = the "midoint", half the value above. Requires n bits. The MSB is 1 and all other bits are 0
+2^n - 1 = the maximum number that can be represented with n bit... all the bits are 1.
+
+```
+0000
+0001
+0010
+0011
+0100
+0101
+0110
+0111
+1000  <<<<<<<< the midpoint AKA 2^(n-1)
+1001
+1010
+1011
+1100
+1101
+1110
+1111
+```
+
+if we compute u-v with three bit and add the midpoint we can tell the if u >= v by looking at the MSB to see if it is 1 or 0.
+
+midpoint + u-v >> if MSB === 1, u >= v, otherwise v < u
+
+so for the GTE(x1, x2) function we must:
+1. Constrain x1, x2 to be at most n-1 bits
+2. Contains the bits to be 0 or 1.
+3. do the same for the sum with the midpoint but for 4 bits.
+4. look is the MSB of that sum is 1.
+
+*how arithmetic circuit can model boolean circuits`*
+
+Contraint number to 0 or 1.
+
+`0 = u(u - 1)`
+
+AND gate
+`t = u*v`
+
+NOT game
+`t = 1 - u`
+
+OR gate
+
+`t = u + v - u*v`
+
+Since all NP problems can be modelled as boolean circuits (the Cook-Levin Theorem), and all boolean circuits can be modelled with arithmetic circuits, it follows that all NP problems can be modelled as arithmetic.
+
+Problems:
