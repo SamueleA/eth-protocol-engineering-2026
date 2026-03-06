@@ -1,4 +1,6 @@
 # Daily Journal
+# 05/03/2026
+I watched the lecture on the code tour of Reth. I got an understanding somewhat but I still think I need to do my own deepdive on the codebase to fully understand it. An interesting subject I researched was BAL (eip-7928). I gained an understanding as to how this EIP scales Ethereum. Essentially, all data locations that might be modified by the transactions in a block is passed in the header which will allow not touching eachother's data to be passed in parallel. I want to learn more about this subject so I plan on reading the EIP and explore the Reth codebase from these lens.
 
 # 04/03/2026
 I listened to today's lecture about the EVM and got a high level view as to how it works. This would be something I'd like to dig deeper into.
