@@ -1,4 +1,7 @@
 # Daily Journal
+# 06/03/2026
+I learned about the data structure on the Ethereum Execution layer today. I had some confusion beforehand but I'm happy to have clarified that up. I also read the second chapter of the zk book (exercises pending). I enjoyed the explanation on how an arithmetic circuit that model if a list if sorted since I thought the method was elegant.
+
 # 05/03/2026
 I watched the lecture on the code tour of Reth. I got an understanding somewhat but I still think I need to do my own deepdive on the codebase to fully understand it. An interesting subject I researched was BAL (eip-7928). I gained an understanding as to how this EIP scales Ethereum. Essentially, all data locations that might be modified by the transactions in a block is passed in the header which will allow not touching eachother's data to be passed in parallel. I want to learn more about this subject so I plan on reading the EIP and explore the Reth codebase from these lens.
 
