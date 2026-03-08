@@ -1,4 +1,7 @@
 # Daily Journal
+# 06/04/2026
+I have now completed all the lessons for the Ethereum protocol study group Ethereum 101 course. There is of course, all kinds of things I want to flesh out in more details. I have also started to study the math book that is part of the next part of the study group in which cryptography will be studied. I think what I will do next is study that book a little bit everyday to let things "sink in" as much as possible. And then, after this theory, I will focus on the practice of Rust and coding.
+
 # 06/03/2026
 I learned about the data structure on the Ethereum Execution layer today. I had some confusion beforehand but I'm happy to have clarified that up. I also read the second chapter of the zk book (exercises pending). I enjoyed the explanation on how an arithmetic circuit that model if a list if sorted since I thought the method was elegant.
 

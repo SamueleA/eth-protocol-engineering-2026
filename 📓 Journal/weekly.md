@@ -1,4 +1,8 @@
 # Weekly Journal
+## Week of March 1st 2026
+TLDR: 🏇 Ethereum protocol study group week 2
+
+This week I've completed all the Ethereum 101 lessons of the Ethereum protocol study group. I feel there are several areas I want too at in more depth. In particular, I want to read the eth2book on my own and read the specs for the Execution Layer. But all in all, I am happy of this week. I also started looking into Reth exexs and will continue looking into that this week.  
 
 ## Week of February 23th 2026
 TLDR: 🏇 Ethereum protocol study group week 1
