@@ -1,5 +1,9 @@
 # Daily Journal
-# 06/04/2026
+# 09/03/2026
+I watched the lecture on Cryptography as part of the Ethereum Study Group. I'm happy that I was able to follow it. I also realized the importance of studying on my own to make sure I am prepare for such lectures. As such, I will be spending some time daily to study the subject on my own and go through the textbook.
+Also, I've complete chapter 16 of the Rust book about concurrency, introducing threads, Arc and Mutex. This seems the perfect time to take a bit of a break from the Rust book and push ahead with practical projects. In particular, I want to create reth exexs and create guide on how to create them for the EPF wiki.
+
+# 07/03/2026
 I have now completed all the lessons for the Ethereum protocol study group Ethereum 101 course. There is of course, all kinds of things I want to flesh out in more details. I have also started to study the math book that is part of the next part of the study group in which cryptography will be studied. I think what I will do next is study that book a little bit everyday to let things "sink in" as much as possible. And then, after this theory, I will focus on the practice of Rust and coding.
 
 # 06/03/2026
