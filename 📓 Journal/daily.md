@@ -1,4 +1,7 @@
 # Daily Journal
+# 10/03/2026
+For today, I read the cryptography textbook for the course so I can keep up with the class and I also started reading the zkEVM book in preparation for tomorrow's session.
+
 # 09/03/2026
 I watched the lecture on Cryptography as part of the Ethereum Study Group. I'm happy that I was able to follow it. I also realized the importance of studying on my own to make sure I am prepare for such lectures. As such, I will be spending some time daily to study the subject on my own and go through the textbook.
 Also, I've complete chapter 16 of the Rust book about concurrency, introducing threads, Arc and Mutex. This seems the perfect time to take a bit of a break from the Rust book and push ahead with practical projects. In particular, I want to create reth exexs and create guide on how to create them for the EPF wiki.
