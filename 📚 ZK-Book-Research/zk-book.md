@@ -176,3 +176,104 @@ OR gate
 Since all NP problems can be modelled as boolean circuits (the Cook-Levin Theorem), and all boolean circuits can be modelled with arithmetic circuits, it follows that all NP problems can be modelled as arithmetic.
 
 Problems:
+
+1. 
+
+0 === x₀ * x₁ * x₂ * ...  * xₙ
+
+2. 
+0 === (1-x) + (1-y) + (1-z)
+
+3.
+```
+# we assign 1 and 2 as color
+# let's use C1 and C2 as our boundaries
+
+# contrain values of c1 and c2
+0 === (1-c1) * (2-c1) 
+0 === (1-c1) * (2-c2)
+
+# they cannot share the same color (since neighbors) (the product must be 2*1 = 2)
+# boundary constraint
+2 === c1 * c2
+
+```
+
+4. 
+```
+k = 
+# when all three numbers are the same
+x * GTE(x, y) * GTE(y, x) * GTE(y, z) * GTE(z, y)  +
+# case when only x, y are equal and biggest
+x * GTE(x, y) * GTE(y, x) * GTE(x, z) * (1 - GTE(y, z) * GTE(z, y)) +
+# case when only y, z are equal and biggest
+z * GTE(z, y) * GTE(y, z) * GTE(z, x) * (1 - GTE(x, z) * GTE(z, x)) +
+# case when only x and z are equal and biggest
+x * GTE(x, z) * GTE(z, x) * GTE(x, y) * (1 - GTE(x, y) * GTE(x, y)) +
+
+
+# case when exactly 1 number is the greatest and not equal to the others
+x * GTE(x, y) * GTE(x, z) * (1 - GTE(x, y) * GTE(y, x)) * (1- GTE(z, x) * GTE(x, z)) +
+... (continue for y and z)
+
+```
+
+For 4, there's a simpler solution by ge
+
+5. Let's do it with x1 and x2
+
+```
+# constrain numbers to be binary
+x1 === 4a2 + 2a1 + a0
+x2 === 4b2 + 2b1 + c0
+
+is_x1_1 === (1 - a2) * (1 - a1) * a0 
+is_x2_1 === (1 - b2) * (1 - b1) * b0 
+
+1 === is_x1_1 + is_x2_1 - is_x1_1 * is_x2_1
+
+```
+
+6. 
+```
+v === 4b2 + 2b1 + b0
+1 === b2 + b1 + b0
+
+```
+
+7. 
+sum 22
+set = {1,2,3}
+```
+A === 1
+B === 2
+C === 3
+
+K === 22
+
+0 === (k - (A + B)) * (k - (B + C)) * (k - (A * C)) * (k - A) * (K - B) * (K - C) * (K - (A + B+ C)) 
+
+```
+
+8. 
+S= {1,2,3, 4}
+C1 = {1,2}
+C2 = {2}
+C3 = {4}
+K = 2
+SUM = 22
+
+signals:
+sets chosen: if a set is chosen the set is 0 or 1
+
+```
+# constrain the value of the subsets
+...
+
+# At most K sets can be chosen
+TOTAL_SETS === C1 + C2 + C3
+1 === GTE(K, TOTAL_SETS)
+
+22 = 1 *C1 + 2 * C1 * C2 + 4 * C3
+
+```
