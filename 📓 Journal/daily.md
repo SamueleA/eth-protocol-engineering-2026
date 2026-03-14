@@ -1,4 +1,8 @@
 # Daily Journal
+# 13/03/2026
+Today I spent time watching videos explaining EIP-4844 and the problem of data availalibity, how peerDAS fits in all this and the longterm vision for Ethereum with full danksharding. I'm realizing there's a lot of complex cryptography in this. This will be really fun to dive even deeper into in the upcoming months as my personal math education gains ground. For now, the goal will simply be to understand EIP-4844 as best as I can for my EIP-4844 gas tracker project.
+I also did the threads rustlings exercises so at least I have some coding done for today.
+
 # 12/03/2026
 So these past few days, I finished revising the lecture from the cryptography lecture. I felt like this second revision helped me grasp things that weren't clear initially. In fact, I was shocked at how everything was crystal clear. I will certainly do these revisits for the next lecture.
 I also went through the tutorials for the reth exex. I will work on a mini-project that will tract blob gas usage, which will be a great way to gain practical experience.
