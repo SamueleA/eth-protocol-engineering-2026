@@ -1,4 +1,11 @@
 # Weekly Journal
+# Week of March 8th 2026
+TLDR: 🏇 Ethereum protocol study group week 3
+
+During this third week of the Ethereum protocol study group I had the first lesson about cryptography. I did struggle at first, feeling like I understood 70-80% of the lesson on first viewing. On second viewing, however, I realized I understood everything. I also attempted to study the book, however, the book is too rigorous for self-study and I will be sticking with the lessons.
+
+I also realize I need a long term plan so I can stay on top of my game math-wise, since this aspect is of paramount importance for Ethereum, despite me being mainly a developer. Therefore, I decided that I will be spending 30 minutes per day studying math. I'm hoping this will compound in the long term. I think my ability to self-learn difficult topics is my strongest asset, so I will lean into that and gain mathematical maturity over time, which will allow me to act as a bridge between the developers and the mathematics.
+
 ## Week of March 1st 2026
 TLDR: 🏇 Ethereum protocol study group week 2
 

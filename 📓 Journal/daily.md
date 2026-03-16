@@ -1,4 +1,7 @@
 # Daily Journal
+# 14/03/2026
+I studied carefully EIP-4844. In particular, I paid attention to gas accounting since this is what I will need in order to complete my first Reth exex project.
+
 # 13/03/2026
 Today I spent time watching videos explaining EIP-4844 and the problem of data availalibity, how peerDAS fits in all this and the longterm vision for Ethereum with full danksharding. I'm realizing there's a lot of complex cryptography in this. This will be really fun to dive even deeper into in the upcoming months as my personal math education gains ground. For now, the goal will simply be to understand EIP-4844 as best as I can for my EIP-4844 gas tracker project.
 I also did the threads rustlings exercises so at least I have some coding done for today.
