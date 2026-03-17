@@ -7,3 +7,5 @@ Exercises for the moon math manual
 3. 1. {} 2. {-4}
 4. 1. 1 2. 1,-1 3. 1,-1,1/2
 5. (5,2), (-5, 2), undefined, (-153, -4), (0,0)
+
+6.  https://github.com/SamueleA/rust_journey/tree/main/exercises/long_division

@@ -1,5 +1,9 @@
 # Daily Journal
-# 14/03/2026
+# 16/03/2026
+I spent the day in math. I did the exercise in the moon math manual. This is part of my new daily habit for learning math and increasing my mathematical maturity daily.
+Finally, I followed the second cryptography lesson which covered fields and polynomials. I made my own recording and revised the first half, going over what I had not understood initially and feeling pretty good about my learning.
+
+# 15/03/2026
 I studied carefully EIP-4844. In particular, I paid attention to gas accounting since this is what I will need in order to complete my first Reth exex project.
 
 # 13/03/2026
