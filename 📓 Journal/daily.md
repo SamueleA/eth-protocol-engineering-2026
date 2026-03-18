@@ -1,4 +1,9 @@
 # Daily Journal
+# 17/03/2026
+I spent most of the day on math. I revised the entire lesson on cryptography and feel like I came to a good understanding of it. The connection between fields of prime integers and prime polynomial is much clearer now.
+
+I also rewrote the guide on how to create a testnet from scratch for the Kurtosis documentation.
+
 # 16/03/2026
 I spent the day in math. I did the exercise in the moon math manual. This is part of my new daily habit for learning math and increasing my mathematical maturity daily.
 Finally, I followed the second cryptography lesson which covered fields and polynomials. I made my own recording and revised the first half, going over what I had not understood initially and feeling pretty good about my learning.
