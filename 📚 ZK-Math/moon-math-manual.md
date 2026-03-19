@@ -8,4 +8,18 @@ Exercises for the moon math manual
 4. 1. 1 2. 1,-1 3. 1,-1,1/2
 5. (5,2), (-5, 2), undefined, (-153, -4), (0,0)
 
-6.  https://github.com/SamueleA/rust_journey/tree/main/exercises/long_division
+6. https://github.com/SamueleA/rust_journey/tree/main/exercises/long_division
+
+7. https://github.com/SamueleA/rust_journey/tree/main/exercises/binary_representation
+
+8.
+A) s = 1, t = 4, GCD = 5
+B) s = -5, t = 6, GCD = 1
+C) s = 1, t = -1, GCD = 1
+
+9. 1
+
+10. 100, is 20 * 5, so answer is all numbers not diving 100 multiplied by 5 under 20.
+95, 85, 65, 55, 45, 35, 15, 5
+
+11. To prove calculate n + m in terms of the GCD of n and m. We will she that m and m + n share the same divisor.
