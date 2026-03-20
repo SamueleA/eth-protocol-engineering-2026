@@ -23,3 +23,12 @@ C) s = 1, t = -1, GCD = 1
 95, 85, 65, 55, 45, 35, 15, 5
 
 11. To prove calculate n + m in terms of the GCD of n and m. We will she that m and m + n share the same divisor.
+
+12.  (13, 11) and (13, 12) are coprimes
+
+13. 0o1354 = 748
+0o777 = 511
+
+14. (13, 0), (-4, 9), (0,0)
+
+15. This will be the set of all integers produced by 4*n
