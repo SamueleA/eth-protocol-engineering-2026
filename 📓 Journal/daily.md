@@ -1,4 +1,7 @@
 # Daily Journal
+# 20/03/2026
+I've been working on a full rewrite of the execution layer data structures summary section in the EPF wiki. It's quite a lot of work and it's requiring a lot of research, but it's been a much greater learning opportunity than I expected. I gained better understanding of the data structures and each of the components and learned about the plans to migrate dta structures from Merkle Patricia Tries to SSZ serialization. I have yet to examine in depth how SSZ works and how it benefits the making of proof, but it's on my todo list!
+
 # 17/03/2026
 I spent most of the day on math. I revised the entire lesson on cryptography and feel like I came to a good understanding of it. The connection between fields of prime integers and prime polynomial is much clearer now.
 
