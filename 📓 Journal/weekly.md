@@ -1,4 +1,9 @@
 # Weekly Journal
+# Week of March 15th 2026
+TLDR: 🏇 Ethereum protocol study group week 4
+
+I focused on the math lessons for this week but I also started contributing to the community. I wrote a full Kurtosis tutorial, I started my reth exex project and I also started working on a article for the EPF wiki, which will be a substantial addition. For the next week, the priority will be finishing that EPF wiki article.
+
 # Week of March 8th 2026
 TLDR: 🏇 Ethereum protocol study group week 3
 
