@@ -1,4 +1,7 @@
 # Daily Journal
+# 25/03/2026
+I dove deep into EIP-7702 today. This allowed me to finish my EPF wiki article about the overview of EL data structures. I provided a full explanation of each new field added and the motivation behind this new transaction type. Now, all that is left is to proof-read, polish and create graphs and my PR should be ready to go tomorrow by my estimation.
+
 # 22/03/2026
 I spent the day revising the cryptography lesson from last week to prep for tomorrow's new lesson. I'm happy to say that as the week went by and with the time I've spent mulling on the concept I feel like I gained a really clear understanding of the concepts. I feel like concepts like polynomials are crystal clear and it shouldn't be posing problems as I dive in deeper material.
 
