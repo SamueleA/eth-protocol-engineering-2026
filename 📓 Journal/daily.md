@@ -1,4 +1,8 @@
 # Daily Journal
+# 26/03/2026
+I finished my article for the EPF wiki. I finished polishing and created a few images and pushed the PR.
+On a separate note, I also started watching the ZK whiteboard sessions and bought a book on abstract algebra, since I believe this could be useful for me long term.
+
 # 25/03/2026
 I dove deep into EIP-7702 today. This allowed me to finish my EPF wiki article about the overview of EL data structures. I provided a full explanation of each new field added and the motivation behind this new transaction type. Now, all that is left is to proof-read, polish and create graphs and my PR should be ready to go tomorrow by my estimation.
 
