@@ -1,4 +1,9 @@
 # Weekly Journal
+# Week of March 22nd 2026
+TLDR: 🏇 Ethereum protocol study group week 5
+
+This week I worked on a article for the EPF wiki. It was a great experience since it allowed me to dig dig and read several EIP. I will have some extra work related to this article the following week, but once I will be fully done with it the plan will be to move to project work.
+
 # Week of March 15th 2026
 TLDR: 🏇 Ethereum protocol study group week 4
 
