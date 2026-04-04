@@ -1,4 +1,11 @@
 # Daily Journal
+# 03/04/2026
+Spent part of the day reading my new book on abstract algebra. I'm really excited about diving deeper in this topic and I fully intend to make studying math part of my daily diet. I believe this will yield great returns in the long term.
+
+I've also been doing rust exercises to make sure my fundamentals are as good as possible. I've been working on 100 exercises to learn Rust. I want to make Rust my core skill so I'll be putting extra attention on this.
+
+I haven't put much time into my reth exex project. I've finished tying some loose ends elsewhere so next week will be when I fully start working on my practical projects!
+
 # 26/03/2026
 I finished my article for the EPF wiki. I finished polishing and created a few images and pushed the PR.
 On a separate note, I also started watching the ZK whiteboard sessions and bought a book on abstract algebra, since I believe this could be useful for me long term.
