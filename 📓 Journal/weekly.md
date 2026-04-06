@@ -1,4 +1,9 @@
 # Weekly Journal
+# Week of March 29nd 2026
+TLDR: 🏇 Ethereum protocol study group week 6
+
+This week the main focus was on Rust. I'm in a grind of practicing Rust on a weekly basis. Furthermore, I started a daily math habit in which I'm studying a bit of math daily. I'm diving in Abstract Algebra using the book from Pinter.
+
 # Week of March 22nd 2026
 TLDR: 🏇 Ethereum protocol study group week 5
 
