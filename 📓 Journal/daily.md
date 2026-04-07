@@ -1,4 +1,9 @@
 # Daily Journal
+# 06/04/2026
+I attended the fourth cryptography lesson for the Ethereum Protocol study group. The lesson was much lighter than the previous ones but I still appreciated the discussions about the different aspects of cryptography. RSA encryption was covered and it was very interesting, even though RSA is not used in Ethereum. There was also a discussion about polynomial commitment schemes. Sadly, I got lost somewhere, so I'll have to revise this part.
+
+I also worked on some Rust exercises to keep my rust chops improving. Read about trait bounds and slices.
+
 # 03/04/2026
 Spent part of the day reading my new book on abstract algebra. I'm really excited about diving deeper in this topic and I fully intend to make studying math part of my daily diet. I believe this will yield great returns in the long term.
 
