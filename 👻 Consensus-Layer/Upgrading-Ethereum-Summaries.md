@@ -74,3 +74,37 @@ In POW, blocks are considered safe based on block confirmations. In POS, the con
 incentives: Rewards given for attestations for block which are part of the canonical chain. Rewards also for proposing blocks that get accepted in the canonical chain. Validators are not punished for voting for the wrong head block as there might be block propagation issues preventing them from voting correctly.
 
 Slashing: solution to the nothing-at-stake problem in which a bad actor votes for all subtrees in order to get rewards.
+
+2.3.4 Casper FFG
+
+Finality guarantees that blocks will never revert.
+
+Finality can be provided when less than 1/3 of validators are faulty or adversarial.
+But casper FFG also provides finality when >1/3 are adversarial. This is because doing so requires double-votes which results in slashing
+
+Process votes from 2/3 at least to establish finality.
+
+2 rounds.
+1 - Justification -> what I think the network things
+2 - finalization -> Whether the rest of  network believes it
+
+target: my view of what I think is the next justified block
+source: finalized block
+
+votes for target with ancestor not being the source is considered invalid but not slashable
+
+supermajority link: s -> t, when >2/3 of validators makes this vote
+
+The 2 casper commandments
+1 - No double votes
+cannot vote for two targets at the same height
+cannot vote for the same target from the different sources
+
+2 - no surround votes
+No votes that surrounds or is surrounded by another.
+
+Bad behavior = slashing
+
+accountable safety: in addition, to guarantees from PBFG (less than 1/3 adversarial = we're good), if more than 1/3 are adversarial thus leading to conflicting finalization, then at least 1/3 would be slashed, thus disentivizing them from doing so.
+
+We can't skip justification and go straight to finalization. 2 step process necessary in distributed systems.
