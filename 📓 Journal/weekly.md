@@ -1,4 +1,9 @@
 # Weekly Journal
+# Week of April 5th 2026
+TLDR: 🏇 Ethereum protocol study group week 7
+
+This week was focused less on math and more of Rust. I kept working on Rust exercises and also ordered a Rust book to dive deeper into systems programming. I also went to Rust meetups to connect with the local Rust community.
+
 # Week of March 29nd 2026
 TLDR: 🏇 Ethereum protocol study group week 6
 
