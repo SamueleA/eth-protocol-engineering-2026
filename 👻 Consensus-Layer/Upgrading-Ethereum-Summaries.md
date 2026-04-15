@@ -108,3 +108,18 @@ Bad behavior = slashing
 accountable safety: in addition, to guarantees from PBFG (less than 1/3 adversarial = we're good), if more than 1/3 are adversarial thus leading to conflicting finalization, then at least 1/3 would be slashed, thus disentivizing them from doing so.
 
 We can't skip justification and go straight to finalization. 2 step process necessary in distributed systems.
+
+2.7 Deposits and Withdrawals
+
+Validator accounts live on the concensus layer.
+The accounts are tracked as part of the beacon state.
+
+Eth is sent to a deposit contract which emits a receipt. The receipt is picked up by the consensus layer and updates the validator account. 
+
+There are 2 types of deposits.
+1. Deposits that create a new validator account (32th)
+2. Partial deposits that refill the validator's account
+
+There are 2 types of withdrawals
+1. Full withdrawals, which exits the validator from the list of validators
+2. Partial withdrawals, which are sent periodically when the validator receives rewards such that the balances reaches a certain level
