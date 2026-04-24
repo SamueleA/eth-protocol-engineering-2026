@@ -109,7 +109,7 @@ accountable safety: in addition, to guarantees from PBFG (less than 1/3 adversar
 
 We can't skip justification and go straight to finalization. 2 step process necessary in distributed systems.
 
-2.7 Deposits and Withdrawals
+# 2.7 Deposits and Withdrawals
 
 Validator accounts live on the concensus layer.
 The accounts are tracked as part of the beacon state.
@@ -123,3 +123,18 @@ There are 2 types of deposits.
 There are 2 types of withdrawals
 1. Full withdrawals, which exits the validator from the list of validators
 2. Partial withdrawals, which are sent periodically when the validator receives rewards such that the balances reaches a certain level
+
+# 2.7.1 Making a deposit
+
+Initial validator deposit can be done through launchpad. There is also a CLI to assist with generating credentials.
+
+# 2.7.2 The Deposit Contract
+
+Ether sent to deposit contract should be considered burnt
+The contract doesn't validate the signature, the concensus layer does
+
+Deposits are stored in an incremental merkle tree, which allows storing the root in the contract and updating it incrementally with minimal cost.
+
+A deposit root is necessary to provide self-contained ways to verify that data in a block is correct. It is an artefact of priot architecture in which the beacon node did not have access to exec layer data. Theses days this is not the case since nodes are the combination of a concensus client and an execution client.
+
+Deposits emit an event rather than being stored on chain to manage costs.
